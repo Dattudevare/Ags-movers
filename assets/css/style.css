@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&family=Open+Sans:wght@600&family=Poppins:wght@400;600&family=Roboto:wght@500;900&family=Sacramento&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/* header section start */
+header .tophead{
+    background-color:#34313A ;
+    height:30px;
+}
+header .tophead .leftgroup ul li,.rightgroup ul li{
+    margin: 0px 20px;;
+}
+header .tophead .rightgroup ul li a{
+    font-size:13px;
+    color:#fff;
+}
+header .tophead .leftgroup ul li a{
+    font-size:13px;
+    color:#fff;
+}
+header .tophead .leftgroup ul li a:hover{
+    text-decoration: underline;
+}
+
+header .tophead .rightgroup ul li a:hover{
+    text-decoration:underline;
+}
+header .tophead .rightgroup ul li label{
+    color:#fff;
+}
+header .tophead .rightgroup ul li select{
+    color:#fff;
+    background-color:#34313A ;
+    border:none;
+}
+header .tophead .leftgroup ul li a.active{
+    width:auto;
+    height: auto;
+    color: #b00000;   
+     font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    position:relative;
+    background:#fff;
+    display:inline-block;
+}
+header .tophead .leftgroup ul li a.active:hover{
+    text-decoration: none;
+}
+header .tophead .leftgroup ul li a.active:before{
+    content:"";
+    top:0px;
+    width:0px;
+    right:100%;
+    position: absolute;
+    border-right:15px solid #fff;
+    border-bottom:0px solid #fff;
+    border-top:28px solid transparent;
+    border-right:20px solid #fff;
+}
+.height{
+    height:90px;
+}
+.mega-menu{
+    display: none;
+}
+.nav-item:hover .mega-menu{
+    display: block;
+    position:absolute;
+    left:0;
+    right:0;
+}
+
+
+/* header section end/ */
+/* slider section start */
+.new1 .new{
+    position:absolute;
+    right:50px;
+    top:200px;
+    display:flex;
+    
+}
+.new1 .new ul li{
+    list-style: none;
+}
+.NEWS.new .PP{
+    position:absolute;
+    top:200px;
+    right:50px;
+
+}
+
+/* slider section end */
+/* international removel section start */
+.interbox{
+    min-height:200px;
+    margin-top:-50px;
+    z-index:9;
+    background:#fff;
+}
+.interbox h1{
+    color: #b00000;
+    font-weight: 650;
+}
+.interbox a
+{
+    color:#eb4512;
+}
+.interbox p{
+    font-size:18px;
+}
+.interbox .pp{
+    padding:0px 160px 0px 160px;
+}
+
+/* international removel section end */
+/* Indivisual section start */
+.indivisual{
+    overflow: hidden;
+}
+.indivisual img:hover{
+    transform: scale(1.5);
+    transition: 1s all;
+    pointer-events:all;
+
+}
+.dd1{
+    border:3px solid red;
+}
+/* Indivisual section end */
+
+/* domestic section start */
+.domestic img:hover{
+transform:scale(1.2);
+}.text-justify{
+    text-align: justify;
+}
+.fs-11{
+    font-size: 60px;
+    
+}
+.row .ms-6{
+    margin-left:400px;
+}
+/* domestic section end */
+
+/* client focus section start */
+
+/* client focus section /end */
+
+/* our network section start */
+.worldwide .container .img{
+    background: url(../img/network-map.jpg);
+    width:100%;
+    height: 500px;
+}
+
+/* our network section end */
+
+/* footer section start  */
+footer{
+    background: #3C3941;
+    color:wheat;
+}
+/* footer section end */
+
+
+
+/* NETWORK .HTML PAGE START */
+
+/* network section start */
+.data{
+    position: absolute;
+    left:140px;
+    top:700px;
+}
+.data .p1{
+    padding:0px 250px 0px 250px;
+    
+    font-weight: 700;
+}
+.network .end-75{
+    margin-bottom: 400px;;
+    margin-left: 1000px;;
+}
+/* network section end */
+/* NETWORK .HTML PAGE END */
+/* Card section start */
+.class1{
+    margin:0px 120px 0px 90px;
+    padding:10px;
+    
+}
+.class1 .card{
+    box-shadow: 10px 5px 5px 2px #fef6f6;
+
+}
+
+.class2:hover{
+    transform:scale(1.07s);
+    transition: all 1s linear;
+}
+.network h5:hover{
+    color:#b00000;
+    transition: all .8s;
+}
+.network .date{
+    background-color: #fff;
+    padding:8px;
+    align-items: center;
+}
+.network .date .day{
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    color: #666;
+}
+.network .month{
+    color:#b00000;
+    font-weight:900;
+}
+.card-body span{
+    font-size: 13px;;
+    color:rgb(21, 20, 20);
+}
+.card-body span a,.card-body p a{
+    text-decoration: none;
+    color:rgb(223, 102, 102);
+}
+/* /Card section End */
+
+/* CONTACT PAGE START */
+.general{
+    margin-top: -95px;
+    background-color:#fff;
+    z-index:1;
+    border:none;
+    box-shadow: #ccc;
+}
+/* CONTACT PAGE END */
+/* News footer sections */
+.bottoom{
+    position:absolute;
+    top:1600px;
+}
+.bottoom1{
+    position:relative;
+    top:100px;
+}
+/* News footer sections */
+
+/* @medai section start */
+@media screen and (min-width: 320px) and (max-width:576px){
+    header .tophead{
+        display: none;
+    }
+    
+    .mn44{
+        margin-top: 50px;
+    }
+    footer{
+        align-items: center;
+        text-align: center;
+    }
+    .world .row button{
+        position: absolute;
+        left:0;
+        right:0;
+        margin-top:0px;
+    }
+    #catlkwalk{
+        position: absolute; 
+        top:6000px;
+    }
+    .worldwide .row button{
+        margin-top:15px;
+        position: absolute;
+        right:0;
+        left:0;
+    }
+    .world .cat1 span,.world .cat1 p{
+        display:none;
+    }
+    footer{
+        margin-top:100px;
+    }
+    .class-3{
+        margin-top:100px;
+    }
+}
+@media screen and (min-width:577px) and( max-width:768px)
+{
+    footer{
+    
+        text-align: center;
+        align-items: center;
+    }
+    .world.row button{
+        position: absolute;
+        margin-left:100px;
+        margin-top: 100px;
+    }
+    .world .rowbutton{
+        position: absolute !important;
+        margin-left:100px;
+        
+    }
+    .network img{
+        width:100% !important;
+        height:1000px !important;
+    }
+}
+@media screen and (min-width:769px) and( max-width:990px){
+
+    #catlkwalk{
+        position: absolute; 
+        top: 600px !important;
+    }
+}
+
+@media screen and (min-width:991px) and( max-width:1300px){
+    .network img{
+        width:100% !important;
+        height:1000px !important;
+    }
+
+}
+
+
+/* @medai section End */
